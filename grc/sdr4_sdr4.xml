@@ -1,0 +1,16 @@
+<block>
+  <name>Sdr4</name>
+  <key>sdr4_sdr4</key>
+  <category>[SDR4]</category>
+  <import>import sdr4</import>
+  <make>sdr4.sdr4($file)</make>
+  <param>
+    <name>File</name>
+    <key>file</key>
+    <type>string</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>
